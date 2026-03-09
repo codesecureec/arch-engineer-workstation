@@ -1,0 +1,31 @@
+configuration {
+  modi: "drun,run";
+  show-icons: true;
+  terminal: "kitty";
+  drun-display-format: "{name}";
+}
+
+* {
+  font: "JetBrainsMono Nerd Font 11";
+}
+
+window {
+  width: 40%;
+  padding: 12px;
+  border: 2px;
+  border-color: #7aa2f7;
+  background-color: #1a1b26;
+}
+
+mainbox {
+  spacing: 8px;
+}
+
+listview {
+  lines: 10;
+  fixed-height: false;
+}
+
+element selected {
+  background-color: #33467c;
+}
